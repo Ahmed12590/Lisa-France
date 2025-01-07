@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="script.js" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="images/LISA-FRANCE-LOGO-1-01-300x95.png" alt="" />
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#work">WORK</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#lfp">LFP</a></li>
+            <li><a href="#consultant">CONSULTANT</a></li>
+            <li><a href="#press">PRESS</a></li>
+            <li><a href="#connect">CONNECT</a></li>
+          </ul>
+        </nav>
+        <div class="social-icons">
+          <a href="#"><i class="fas fa-envelope"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <div class="image-slider">
+      <div class="image-slides">
+        <!-- Slide 1 -->
+        <div class="image-slide">
+          <img src="images/banner1.png" alt="Slide 1" />
+          <div class="overlay-text">QUEEN SUGAR - HULU</div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="image-slide">
+          <img src="images/banner2.png" alt="Slide 2" />
+          <div class="overlay-text">ANOTHER SHOW - NETWORK</div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="image-slide">
+          <img src="images/banner3.png" alt="Slide 3" />
+          <div class="overlay-text">YET ANOTHER SHOW - PLATFORM</div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="image-slide">
+          <img src="images/banner4.png" alt="Slide 3" />
+          <div class="overlay-text">YET ANOTHER SHOW - PLATFORM</div>
+        </div>
+        <!-- Slide 5 -->
+        <div class="image-slide">
+          <img src="images/banner5.png" alt="Slide 3" />
+          <div class="overlay-text">YET ANOTHER SHOW - PLATFORM</div>
+        </div>
+        <!-- Slide 6 -->
+        <div class="image-slide">
+          <img src="images/banner6.png" alt="Slide 3" />
+          <div class="overlay-text">YET ANOTHER SHOW - PLATFORM</div>
+        </div>
+      </div>
+      <!-- Navigation Arrows -->
+      <div class="slider-arrow slider-left" onclick="navigateSlide(-1)">
+        &#10094;
+      </div>
+      <div class="slider-arrow slider-right" onclick="navigateSlide(1)">
+        &#10095;
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+    <section class="slider-container">
+      <div class="slider-wrapper">
+        <div class="slider">
+          <div class="slide-track">
+            <!-- Logos go here -->
+            <div class="slide">
+              <img src="images/logo1.png" alt="Amazon Prime" />
+            </div>
+            <div class="slide"><img src="images/logo2.png" alt="Starz" /></div>
+            <div class="slide">
+              <img src="images/logo3.png" alt="OWN Network" />
+            </div>
+            <div class="slide">
+              <img src="images/logo4.png" alt="Amazon Prime" />
+            </div>
+            <div class="slide"><img src="images/logo5.png" alt="Starz" /></div>
+            <div class="slide">
+              <img src="images/logo6.png" alt="OWN Network" />
+            </div>
+            <div class="slide">
+              <img src="images/logo7.png" alt="OWN Network" />
+            </div>
+            <div class="slide">
+              <img src="images/logo8.png" alt="OWN Network" />
+            </div>
+            <div class="slide">
+              <img src="images/logo9.png" alt="OWN Network" />
+            </div>
+            <div class="slide">
+              <img src="images/logo10.png" alt="OWN Network" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="work-sec">
+        <h1>WORK</h1>
+        <div class="work-grid">
+            <div class="work-item">
+                <img src="images/work1.jpeg" alt="Work 1">
+                <div class="overlay">
+                    <p>ROMANTIC COMEDY + HOLIDAY</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="images/work2.jpg" alt="Work 2">
+                <div class="overlay">
+                    <p>DRAMA + ACTION</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="images/work3.jpeg" alt="Work 3">
+                <div class="overlay">
+                    <p>THRILLER + SUSPENSE</p>
+                </div>
+            </div>
+            <div class="work-item">
+                <img src="images/work 4.jpg" alt="Work 4">
+                <div class="overlay">
+                    <p>DOCUMENTARY + JOURNEY</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <section class="connect-section">
+      <h1>CONNECT</h1>
+      <div class="connect-container">
+        <div class="connect-image">
+          <img
+            src="images/Lisa-on-Queen-Sugar-set-703x1024 (1).jpeg"
+            alt="Profile"
+          />
+        </div>
+        <div class="connect-form">
+          <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              required
+            />
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <footer>
+      <div class="footer-overlay">
+        <div class="footer-content">
+          <img src="images/LISA-FRANCE-LOGO-1-01-300x95.png" alt="" />
+
+          <div class="footer-info">
+            <p><i class="fas fa-globe"></i> www.lisafrance.com</p>
+            <p><i class="fas fa-envelope"></i> info@lisafrance.com</p>
+          </div>
+
+          <div class="footer-social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </div>
+
+          <p class="footer-bottom">
+            © All Rights Reserved | Designed & Developed By Brand Boosters
+            Global
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
