@@ -1,3 +1,13 @@
+
+// header js 
+
+function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+  }
+  
+
+
 let activeSlide = 0;
 
 // Ensure the DOM is loaded before running the script
