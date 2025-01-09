@@ -286,7 +286,6 @@ nav .menu li a:hover {
 }
 /* work css end  */
 
-/* about section  */
 
 /* About Section */
 .about-sec {
@@ -342,12 +341,67 @@ nav .menu li a:hover {
   color: #0056b3;
 }
 
-/* Hover Effect */
-.about-text:hover {
-  background-color: #f8f9fa;
+/* Slider Section */
+.custom-slider {
+  flex: 1;
+  position: relative;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 5px;
+  
+}
+
+.custom-slider-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.custom-slide {
+  min-width: 100%;
+}
+
+.custom-slide img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/* Slider Controls */
+.custom-slider-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.custom-slider-controls button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: background 0.3s ease;
+}
+
+.custom-slider-controls button:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 /* about section end  */
+
+
+
+
+
+
+
+
+
 
 /* connect csss start  */
 

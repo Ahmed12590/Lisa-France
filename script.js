@@ -66,3 +66,29 @@ sliderWrapper.addEventListener('mousemove', (e) => {
     const walk = (x - startX) * 1; // Adjust scrolling speed
     slideTrack.style.transform = `translateX(${scrollLeft - walk}px)`;
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let customCurrentSlide = 0;
+
+// function moveCustomSlide(direction) {
+//   const slides = document.querySelectorAll('.custom-slide'); // Get all slides
+//   const sliderContainer = document.querySelector('.custom-slider-container'); // Get the slider container
+//   const totalSlides = slides.length; // Total number of slides
+
+//   // Update the current slide index, ensuring it wraps around
+//   customCurrentSlide = (customCurrentSlide + direction + totalSlides) % totalSlides;
+
+//   // Move the slider container to show the correct slide
+//   sliderContainer.style.transform = `translateX(-${customCurrentSlide * 100}%)`;
+// }
