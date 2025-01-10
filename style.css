@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
 }
 
@@ -286,7 +287,6 @@ nav .menu li a:hover {
 }
 /* work css end  */
 
-
 /* About Section */
 .about-sec {
   padding: 20px 0;
@@ -348,7 +348,6 @@ nav .menu li a:hover {
   max-width: 600px;
   overflow: hidden;
   border-radius: 5px;
-  
 }
 
 .custom-slider-container {
@@ -393,15 +392,6 @@ nav .menu li a:hover {
 }
 
 /* about section end  */
-
-
-
-
-
-
-
-
-
 
 /* connect csss start  */
 
@@ -680,6 +670,65 @@ nav .menu li a:hover {
 }
 
 /* ///////////////////////// work page css end ////////////////////// */
+
+/* ////////////////////////about page css start ///////////////////////// */
+
+.aboutpage-sec {
+  padding: 20px 0px;
+  text-align: center;
+  background-color: #414141;
+}
+
+.aboutpage-sec h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: white;
+}
+.aboutpage-sec p {
+  font-size: 17px;
+  font-weight: 300;
+  color: white;
+  line-height: 1.4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center; /* Centers the images horizontally */
+  align-items: center; /* Aligns images vertically */
+  flex-wrap: wrap; /* Allows wrapping of images in rows */
+  gap: 20px; /* Adds space between the images */
+  padding: 40px;
+  background-color: #414141;
+}
+
+.image-section img {
+  width: 300px; 
+  height: auto; 
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer Styling */
 footer {
