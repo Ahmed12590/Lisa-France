@@ -521,8 +521,8 @@ nav .menu li a:hover {
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 columns */
-  gap: 10px; /* Add spacing between items */
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 10px; 
   justify-content: center;
 }
 
